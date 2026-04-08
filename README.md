@@ -19,17 +19,8 @@ You can verify you have dumped a supported copy of the game by using the compati
 ### 2. Download 2 Ship 2 Harkinian from [Releases](https://github.com/HarbourMasters/2Ship2Harkinian/releases)
 
 ### 3. Launch the Game!
-#### Windows
-* Extract the zip
-* Launch `2ship.exe`
-
-#### Linux
-* Place your supported copy of the game in the same folder as the appimage.
-* Execute `2ship.appimage`. You may have to `chmod +x` the appimage via terminal.
-
-#### macOS
-* Run `2ship.app`.
-* When prompted, select your supported copy of the game.
+#### Allow permissions for all file access. App will build required files in Internal Storage under 2S2H folder.
+#### prompts for extracting ROM may appear, direct to your ROM. Extraction process takes a few minutes.
 
 ### 4. Play!
 
@@ -37,27 +28,12 @@ Congratulations, you are now sailing with 2 Ship 2 Harkinian! Have fun!
 
 # Configuration
 
-### Default keyboard configuration
-| N64 | A | B | Z | Start | Analog stick | C buttons | D-Pad |
-| - | - | - | - | - | - | - | - |
-| Keyboard | X | C | Z | Space | WASD | Arrow keys | TFGH |
-
-### Other shortcuts
-| Keys | Action |
-| - | - |
-| F1 | Toggle menubar |
-| F11 | Fullscreen |
-| Tab | Toggle Alternate assets |
-| Ctrl+R | Reset |
+### Back button will bring up settings menu.
 
 ### Graphics Backends
-Currently, there are three rendering APIs supported: DirectX 11 (Windows), OpenGL (all platforms), and Metal (macOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.
+You can change which API to use in the `Settings` menu of the menubar, which requires a restart.
 
-If you're having an issue with crashing, you can also change the API manually in the `2ship2harkinian.json` file by finding the `"Backend": {` section and updating the backend ID and name. Be sure to use one of the valid values:
-
-- `0` = DirectX 11 (default on Windows)
-- `1` = OpenGL
-- `2` = Metal (default on macOS)
+If you're having an issue with crashing, you can also change the API manually in the `2ship2harkinian.json` file by finding the `"Backend": {` section and updating the backend ID and name. Be sure to use one of the valid values.
 
 # Custom Assets
 
@@ -71,12 +47,6 @@ If you're interested in creating and/or packing your own custom asset `.o2r`/`.o
 
 If you want to manually compile 2S2H, please consult the [building instructions](docs/BUILDING.md).
 
-# Nightly Builds
-If you want to playtest a continuous integration build, you can find them at the links below. Keep in mind that these are for playtesting only, and you will likely encounter bugs and possibly crashes. 
-
-* [Windows](https://nightly.link/HarbourMasters/2ship2harkinian/workflows/main/develop/2ship-windows.zip)
-* [Linux](https://nightly.link/HarbourMasters/2ship2harkinian/workflows/main/develop/2ship-linux.zip)
-* [Mac](https://nightly.link/HarbourMasters/2ship2harkinian/workflows/main/develop/2ship-mac.zip)
 
 <a href="https://github.com/Kenix3/libultraship/">
   <picture>
