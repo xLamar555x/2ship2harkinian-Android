@@ -20,7 +20,7 @@ You can verify you have dumped a supported copy of the game by using the compati
 
 ### 3. Launch the Game!
 #### Allow permissions for all file access. App will build required files in Internal Storage under 2S2H folder.
-#### prompts for extracting ROM may appear, direct to your ROM. Extraction process takes a few minutes.
+Prompts for extracting ROM may appear, direct to your ROM. Extraction process takes a few minutes.
 
 ### 4. Play!
 
